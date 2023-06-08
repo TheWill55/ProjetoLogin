@@ -1,0 +1,59 @@
+@charset "UTF-8";
+
+:root {
+    --color1: #300030;
+    --color2: #480048;
+    --color3: #601848;
+    --color4: #c04848;
+    --color5: #f07241;
+}
+
+
+@media screen and (min-width:768px) and (max-width:992px){
+
+
+    body {
+        background-image: linear-gradient(to top, var(--color2), var(--color4));
+    }
+
+    section#login {
+        width: 80vw;
+    }
+
+    section#login > div#img {
+
+        float: left;
+        width: 30%;
+        height: 100%;
+    }
+
+    section#login > div#form{
+        float: right;
+        width: 70%;
+
+    }
+    
+} 
+
+@media screen and (min-width: 992px){
+
+    body {
+        background-image: linear-gradient(to top, var(--color3), var(--color5));
+    }
+
+   section#login {
+        width: 950px;
+   } 
+
+   section#login > div#img {
+        float: left;
+        width: 50%;
+        height: 100%;
+   }
+
+   section#login > div#form {
+        float: right;
+        width: 50%;
+   }
+}
+    
